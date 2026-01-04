@@ -4,20 +4,22 @@ import WhoWeAre from '../components/Pages/Home/WhoWeAre'
 import OurBusinesses from '../components/Pages/Home/OurBusinesses'
 import SustainabilityMissionSection from '../components/Pages/Home/SustainabilityMissionSection'
 import CareersPreview from '../components/Pages/Home/CareersPreview'
-
+import HeroSection from '../components/Pages/Home/HeroSection'
+import HeroVideo from '../assets/istockphoto-1667456740-640_adpp_is.mp4'
 const Home = () => {
     return (
         <div className='space-y-16'>
             <Hero
                 variant="video"
-                // videoSrc="https://videos.pexels.com/video-files/3184339/3184339-hd.mp4"
-                posterSrc="https://marketingaccesspass.com/wp-content/uploads/2015/10/Podcast-Website-Design-Background-Image.jpg"
+                videoSrc={HeroVideo}
+                posterSrc=""
                 heading="Engineering trust. Building scale."
-                subheading="Infrastructure, clean energy, mining, retail, and global trade."
+                // subheading="Infrastructure, clean energy, mining, retail, and global trade."
                 primaryCta={{ label: "Explore Our Businesses", to: "/businesses" }}
                 secondaryCta={{ label: "Contact Us", to: "/contact" }}
                 align="left"
             />
+            {/* <HeroSection /> */}
             <WhoWeAre
                 heading="We build trust at scale."
                 paragraphs={[

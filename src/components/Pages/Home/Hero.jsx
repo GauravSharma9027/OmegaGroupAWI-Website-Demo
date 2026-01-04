@@ -5,7 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 export default function Hero({
-  videoSrc = "https://videos.pexels.com/video-files/3184339/3184339-hd.mp4",
+  videoSrc = "https://www.freepik.com/premium-video/breathtaking-video-concept-earth-from-space-captured-from-high-angle-view_6221553#fromView=search&page=1&position=15&uuid=92e01d32-8ceb-473d-97e1-9cb4f71a128d",
   posterSrc = "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg",
   heading = "Engineering Trust. Building Scale.",
   subheading = "Diversified corporate group across infrastructure, clean energy, mining, retail, and global trade.",
