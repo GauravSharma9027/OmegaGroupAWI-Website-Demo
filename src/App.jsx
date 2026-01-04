@@ -5,7 +5,7 @@ import Home from './pages/Home';
 const App = () => {
   return (
     <div>
-      <BrowserRouter  basename="/vendor">
+      <BrowserRouter  basename="/">
         <Routes>
           <Route path="/" element={<MainLayout />} >
             {/* Define your routes here */}
