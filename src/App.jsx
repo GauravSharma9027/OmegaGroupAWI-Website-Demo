@@ -7,7 +7,7 @@ const App = () => {
   return (
     // hello
     <div>
-      <BrowserRouter  basename="/website">
+      <BrowserRouter basename="/website">
         <Routes>
           <Route path="/" element={<MainLayout />} >
             {/* Define your routes here */}
@@ -15,6 +15,11 @@ const App = () => {
             <Route path="about" element={<About />} />
           </Route>
         </Routes>
+        {/* {
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+} */}
       </BrowserRouter>
     </div>
   )
