@@ -11,7 +11,7 @@ const menuData = [
         title: "About Us",
         href: "/about",
         sections: [
-            { title: "Company Overview", href: "/about#overview" },
+            { title: "who we are", href: "/about#whoWeAre" },
             { title: "Vision & Mission", href: "/about#vision" },
             { title: "Leadership", href: "/about#leadership" },
             { title: "Timeline / Journey", href: "/about#timeline" },

@@ -4,7 +4,7 @@ import WhoWeAre from '../components/Pages/Home/WhoWeAre'
 import OurBusinesses from '../components/Pages/Home/OurBusinesses'
 import SustainabilityMissionSection from '../components/Pages/Home/SustainabilityMissionSection'
 import CareersPreview from '../components/Pages/Home/CareersPreview'
-import HeroSection from '../components/Pages/Home/HeroSection'
+// import HeroSection from '../components/Pages/Home/HeroSection'
 import HeroVideo from '../assets/istockphoto-1667456740-640_adpp_is.mp4'
 const Home = () => {
     return (
